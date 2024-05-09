@@ -1,16 +1,9 @@
 package com.hendisantika.springbootrestapipostgresql.entity;
 
-import jakarta.persistence.CollectionTable;
-import jakarta.persistence.Column;
-import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 public class Author {
@@ -21,11 +14,15 @@ public class Author {
     private String bio;
 
     // Constructors, getters, and setters
-    public Author() {}
+    public Author(long l, String johnDoe, String bio) {}
 
     public Author(String name, String bio) {
         this.name = name;
         this.bio = bio;
+    }
+
+    public Author() {
+
     }
 
     // Getters and setters

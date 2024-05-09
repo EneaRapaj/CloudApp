@@ -42,7 +42,11 @@ public class Book {
         this.tags = tags;
     }
 
+    public Book(long l, String name, String bookName, String description) {
+    }
+
     public Book() {
+
     }
 
     public Long getId() {

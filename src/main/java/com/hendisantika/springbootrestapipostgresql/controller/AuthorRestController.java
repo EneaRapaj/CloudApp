@@ -1,3 +1,5 @@
+package com.hendisantika.springbootrestapipostgresql.controller;
+
 import com.hendisantika.springbootrestapipostgresql.entity.Author;
 import com.hendisantika.springbootrestapipostgresql.repository.AuthorRepository;
 
